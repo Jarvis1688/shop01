@@ -100,25 +100,26 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img id="logo-header" src="assets/img/logo.png" alt="Logo">
+                        <!--<img id="logo-header" src="assets/img/logo.png" alt="Logo">-->
+                        <h2>豆瓣电影</h2>
                     </a>
                 </div>
 
-
-                <!--这里没看明白-->
                 <!-- 集合导航链接，表单和其他内容进行切换 -->
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <!-- Badge -->
+                    <!-- 导航购物车模块 -->
                     <ul class="list-inline shop-badge badge-lists badge-icons pull-right">
                         <li>
                             <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                            <!--徽章-->
                             <span class="badge badge-sea rounded-x">3</span>
+                            <!--购物车列表-->
                             <ul id="scrollbar" class="list-unstyled badge-open contentHolder">
                                 <li>
                                     <img src="assets/img/thumb/01.jpg" alt="">
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
-                                        <span>Black Glasses</span>
+                                        <span>女装</span>
                                         <small>1 x $400.00</small>
                                     </div>    
                                 </li>
@@ -126,36 +127,37 @@
                                     <img src="assets/img/thumb/02.jpg" alt="">
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
-                                        <span>Black Glasses</span>
-                                        <small>1 x $400.00</small>
+                                        <span>眼镜</span>
+                                        <small>￥95</small>
                                     </div>    
                                 </li>
                                 <li>
                                     <img src="assets/img/thumb/03.jpg" alt="">
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
-                                        <span>Black Glasses</span>
-                                        <small>1 x $400.00</small>
+                                        <span>皮带</span>
+                                        <small>￥95</small>
                                     </div>    
                                 </li>
                                 <li class="subtotal">
                                     <div class="overflow-h margin-bottom-10">
-                                        <span>Subtotal</span>
-                                        <span class="pull-right subtotal-cost">$1200.00</span>
+                                        <span>总计</span>
+                                        <small>￥95</small>
                                     </div>
                                     <div class="row">    
                                         <div class="col-xs-6">
-                                            <a href="shop-ui-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">View Cart</a>
+                                            <a href="shop-ui-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">查看详情</a>
                                         </div>
                                         <div class="col-xs-6">
-                                            <a href="shop-ui-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">Checkout</a>
+                                            <a href="shop-ui-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">查看购物车</a>
                                         </div>
                                     </div>        
                                 </li>    
                             </ul>
+                            <!--End 购物车列表-->
                         </li>
                     </ul>
-                    <!-- End Badge -->
+                    <!-- End 导航购物车模块 -->
 
                     <ul class="nav navbar-nav">
                         <!-- Pages -->
@@ -398,6 +400,8 @@
         <!-- End 主导航模块 -->
     </div>
     <!-- End 头部模块 v5 -->
+
+
 
     <!-- 幻灯片Banner模块 -->
     <!-- 使用了jQuery幻灯片插件插件Slider Revolution -->
@@ -643,6 +647,7 @@
             <div class="tp-bannertimer tp-bottom"></div>            
         </div>
     </div>
+    
     <!-- End 幻灯片Banner模块 -->
 
 
@@ -1647,7 +1652,7 @@
 <!--style-switcher基于jquery切换网页风格-->
 <script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
 <script>
-    jQuery(document).ready(function() {
+    $(document).ready(function() {
         App.init();
         App.initParallaxBg();
         OwlCarousel.initOwlCarousel();
