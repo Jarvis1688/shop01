@@ -16,6 +16,10 @@
 
 这是test页面
 
+<br />
+<a href="./in_theaters.json">连接到in_theaters.json页面</a>
+<br />
+<a href="./hello.txt">连接到hello页面</a>
 </body>
 
 <!-- JS 全局必须调用 -->
@@ -23,7 +27,7 @@
 <script src="assets/js/custom.js"></script>
 <script>
 $(document).ready(function(){
-    $.getJSON("/in_theaters.json",  
+    $.getJSON("./in_theaters.json",  
         function (data) {  
             data = data["subjects"];
             for(var item in data){
