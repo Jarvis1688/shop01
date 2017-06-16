@@ -14,7 +14,7 @@
 
 <body class="header-fixed">
 
-
+这是test页面
 
 </body>
 
@@ -23,7 +23,7 @@
 <script src="assets/js/custom.js"></script>
 <script>
 $(document).ready(function(){
-    $.getJSON("http://localhost:8080/in_theaters.json",  
+    $.getJSON("/in_theaters.json",  
         function (data) {  
             data = data["subjects"];
             for(var item in data){
