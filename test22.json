@@ -1,0 +1,70 @@
+{
+            "rating": {
+                "max": 10,
+                "average": 7.5,
+                "stars": "40",
+                "min": 0
+            },
+            "genres": [
+                "科幻",
+                "惊悚",
+                "恐怖"
+            ],
+            "title": "异形：契约，本地数据",
+            "casts": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1000010/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/32214.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/32214.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/32214.jpg"
+                    },
+                    "name": "迈克尔·法斯宾德",
+                    "id": "1000010"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1316589/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1474083107.3.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1474083107.3.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1474083107.3.jpg"
+                    },
+                    "name": "凯瑟琳·沃特斯顿",
+                    "id": "1316589"
+                },
+                {
+                    "alt": "https://movie.douban.com/celebrity/1009265/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/1413531816.25.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/1413531816.25.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/1413531816.25.jpg"
+                    },
+                    "name": "比利·克鲁德普",
+                    "id": "1009265"
+                }
+            ],
+            "collect_count": 9269,
+            "original_title": "Alien: Covenant",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https://movie.douban.com/celebrity/1054416/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com/img/celebrity/small/588.jpg",
+                        "large": "https://img3.doubanio.com/img/celebrity/large/588.jpg",
+                        "medium": "https://img3.doubanio.com/img/celebrity/medium/588.jpg"
+                    },
+                    "name": "雷德利·斯科特",
+                    "id": "1054416"
+                }
+            ],
+            "year": "2017",
+            "images": {
+                        //   https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459944375.webp
+                "small": "https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2459944375.webp",
+                "large": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2459944375.webp",
+                "medium": "https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2459944375.webp"
+            },
+            "alt": "https://movie.douban.com/subject/11803087/",
+            "id": "11803087"
+        },

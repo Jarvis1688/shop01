@@ -10,70 +10,106 @@
     <meta name="description" content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
     <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东" />
     <!-- Favicon图标 -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <style>
+        #nav{
+            background-color: #ccc;
+        }
+        #main .item{
+            background-color: #eee;
+        }
+    </style>
 </head>	
 
-<body class="header-fixed">
+<body>
+    
+  <div class="container">
+      <nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-这是test页面
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  
+</nav>
+</div><!-- /.container-fluid -->
+<!--导航条结束-->
 
-<br />
-<a href="./in_theaters.json">连接到in_theaters.json页面</a>
-<br />
-<a href="./hello.txt">连接到hello页面</a>
+
+    <div class="container">
+        <div class="row">
+            <div id="nav" class="col-md-3 col-sm-3 col-xs-3 md-margin-bottom-30">
+                <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+            </div>
+            <div id="main" class="col-md-9 col-sm-9 col-xs-9 md-margin-bottom-30">
+               
+                <ul id="movie_list" class="list-group">
+                    
+                
+                </ul>
+
+
+            </div>
+            <!--end main-->
+        </div>
+         <!--end row-->
+    </div>
+
 </body>
 
 <!-- JS 全局必须调用 -->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
 <script>
-$(document).ready(function(){
-    $.getJSON("./in_theaters.json",  
-        function (data) {  
-            data = data["subjects"];
-            for(var item in data){
-                console.log(data[item].title);
-            }
-        }  
-    );
-
-});
-
-//     jQuery(document).ready(function(){   
-//      $.ajax({
-
-//          type : "get", //jquey是不支持post方式跨域的
-
-//          async:false,
-
-//         //  url : "http://api.douban.com/v2/movie/in_theaters", //跨域请求的URL
-
-
-//         url: "http://api.douban.com/v2/movie/subject/11803087",
-
-
-//          dataType : "jsonp",
-
-//          //传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
-
-//          jsonp: "jsoncallback",
-
-//          //自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
-
-//          jsonpCallback:"success_jsonpCallback",
-
-//          //成功获取跨域服务器上的json数据后,会动态执行这个callback函数
-
-//          success: function(json,textStatus){ 
-
-//              console.log(json+'->'+textStatus);
-//          }  //success
-
-//           error: function(json,textStatus){ 
-
-//              console.log(json+'->'+textStatus);
-//          }  //success
-//      }); //ajax  
-//  }); 
-
+//0000000000000000
 </script>
 </html>
