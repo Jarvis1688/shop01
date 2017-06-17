@@ -1,5 +1,5 @@
 /*Import Google Font*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url(./fonts.css);
 
 /*Import Global Compulsory CSS Files*/
 @import url(app.css);
@@ -133,7 +133,7 @@ li:first-child {
 .illustration-v1.illustration-img1 {
 	width: 100%;
 	overflow: hidden;
-	background-image: url(../img/blog/07.jpg);
+	background-image: url(../img/blog/solgen1.jpg);
 	transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -185,7 +185,7 @@ li:first-child {
 .illustration-v1.illustration-img2 {
 	width: 100%;
 	overflow: hidden;
-	background-image: url(../img/blog/08.jpg);
+	background-image: url(../img/blog/07.jpg);
 	transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
