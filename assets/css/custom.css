@@ -1,0 +1,152 @@
+/*公共样式*/
+h2.logo{
+	font-size: 30px;
+	color: #B81C22;
+}
+
+.btn-search {
+    color: #fff;
+    background-color: #B81C22;
+    border-color: #B81C22;
+}
+
+.social-sharing a {display:inline-block; float:left; background:url(../img/icons/icon-sns-zh.gif) no-repeat 0 0; width:24px; height:24px; text-indent:-9999em; margin:4px;}
+.social-sharing span.tencent a {background-position:0 -31px;}
+.social-sharing span.qq a {background-position:0 -92px;}
+.social-sharing span.weixin a {background-position:0 -62px;}
+/*.social-sharing .fav a {text-indent:0; width:auto; background:none; margin:0 30px 0 0;}*/
+
+/*topbar 样式*/
+
+.topbar-v3 .search-open .form-control {
+    padding: 5px 20px;
+    color: #333;
+    border: none;
+    min-height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    background: #FFF;
+}
+
+.topbar-v3 .search-open .search-close {
+    top: 10px;
+    right: 32px;
+	font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+}
+
+.topbar-v3 .right-topbar li, .topbar-v3 .right-topbar li a {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.topbar-v3 .left-topbar {
+    padding-left: 0;
+    margin-bottom: 1px;
+}
+
+/*=============    头部样式   =============================*/
+
+/*头部购物车样式*/
+.header-v5 .shop-badge.badge-icons i {
+    /*color: #687074;*/
+	color: #B81C22;
+    font-size: 24px;
+}
+
+.header-fixed .header-v5.header-fixed-shrink {
+    margin-top: -40.5px;
+	height: 109px;
+}
+
+
+/*==============  响应样式    ========================*/
+@media (min-width: 992px) {
+	/*头部导航样式*/
+	.header-v5 .badge-open {
+		z-index: 999;
+	}
+
+}
+
+@media (min-width: 768px){
+	.left-topbar{
+		display: block;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+	.left-topbar{
+		display: none;
+	}
+}
+
+
+
+
+/*面包屑导航*/
+
+
+/*Breadcrumbs v4
+------------------------------------*/ 
+
+.breadcrumb{
+    background:none;
+}
+
+.breadcrumb-top{
+	margin-top: 20px;
+}
+
+.content {
+    padding-top: 0;
+}
+
+
+/*内容页产品详情*/
+
+.content-md {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inner-content-img img{
+    width: 100%;
+}
+
+/*购物车页面*/
+.content-md-cart {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*登录表单*/
+
+.log-reg-v3 .border-wings span:before, .log-reg-v3 .border-wings span:after {
+    width: 61%;
+}
+
+@media (min-width: 992px) {
+	.log-reg-left-img{
+        margin-top:62px;
+    }
+
+}
+
+.bank-list-group{
+
+}
+
+.bank-list-group li.list-group-item {
+    position: relative;
+    display: block;
+    padding: 20px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+

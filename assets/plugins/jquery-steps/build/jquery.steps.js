@@ -1974,7 +1974,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Cancel"
          * @for defaults
          **/
-        cancel: "Cancel",
+        cancel: "取消",
 
         /**
          * This label is important for accessability reasons.
@@ -1985,7 +1985,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "current step:"
          * @for defaults
          **/
-        current: "current step:",
+        current: "当前位置：",
 
         /**
          * This label is important for accessability reasons and describes the kind of navigation.
@@ -1996,7 +1996,7 @@ var defaults = $.fn.steps.defaults = {
          * @for defaults
          * @since 0.9.7
          **/
-        pagination: "Pagination",
+        pagination: "分页",
 
         /**
          * Label for the finish button.
@@ -2006,7 +2006,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Finish"
          * @for defaults
          **/
-        finish: "Finish",
+        finish: "确认付款",
 
         /**
          * Label for the next button.
@@ -2016,7 +2016,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Next"
          * @for defaults
          **/
-        next: "Next",
+        next: "下一步",
 
         /**
          * Label for the previous button.
@@ -2026,7 +2026,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Previous"
          * @for defaults
          **/
-        previous: "Previous",
+        previous: "上一步",
 
         /**
          * Label for the loading animation.
@@ -2036,7 +2036,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Loading ..."
          * @for defaults
          **/
-        loading: "Loading ..."
+        loading: "努力加载中 ..."
     }
 };
 })(jQuery);
