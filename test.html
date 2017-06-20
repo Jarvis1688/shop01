@@ -6,45 +6,97 @@
     <!-- Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>京西(JC.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <title>京西(JC.COM)</title>
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <style>
-        #example-basic{
-            width:800px;
-            height: 300px;
-            margin: 100px auto;
-            background-color: #eee;
-            padding: 20px;
 
-        }
-        #example-basic h3{
-            width: 100px;
-            background-color: blue;
-            height: 30px;
-            color: #fff;
-        }
+    <style>
+        body {
+  height: 100%;
+  font: 12px/18px "Microsoft Yahei", Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif;
+  color: #51555C;
+  background: #162934;
+}
+
+#main {
+  width: 980px;
+  min-height: 600px;
+  margin: 30px auto 0 auto;
+  padding:30px;
+  background: #fff;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+  border: 4px solid #888;
+  margin:-4px;  /* Set this to minus the border thickness. */
+  background-color:#fff;  
+  cursor:move;    
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+  font-family:Arial, Helvetica, sans-serif;
+  position:absolute !important;
+  background-color:#000;
+  color:#fff;
+  padding:3px;
+  width:100%;
+  text-align:center;  
+  font-weight:bold;
+  font-size:10px;
+  top:0px;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+  border:4px solid #ccc;
+  overflow:hidden;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+  color:white;  
+  background:#222;
+  padding:3px;
+  border:1px solid #000;
+}
+
     </style>
 </head>	
 
 <body>
 
-
-<div class="container">
-
-    <div class="btn-group" role="group" aria-label="...">
-        <label for="box1">
-            按钮一
-            <input type="checkbox" class="btn btn-success" id="box1">
-        </label>
-        
-        <input type="checkbox" class="btn btn-default" id="box2">
-        <input type="checkbox" class="btn btn-success" id="box3">
-    <button type="button" class="btn btn-default">Left</button>
-    <button type="button" class="btn btn-default">Middle</button>
-    <button type="button" class="btn btn-default">Right</button>
+    <div class="container">
+        <div class="demo">
+            <h2>标准设置</h2>
+            <a class="cloud-zoom" id="zoom1" href="img/bigimage00.jpg" rel="adjustX: 10, adjustY:-4, softFocus:true">
+                <img src="img/smallimage.jpg" title="是这个title属性吗" alt="" />
+            </a>
+            <a href='img/bigimage00.jpg' class='cloud-zoom-gallery' title='Thumbnail 1' rel="useZoom: 'zoom1', smallImage: 'img/smallimage.jpg' ">
+                <img src="img/tinyimage.jpg" alt = "Thumbnail 1"/>
+            </a>   
+            <a href='img/bigimage01.jpg' class='cloud-zoom-gallery' title='Thumbnail 2' rel="useZoom: 'zoom1', smallImage: 'img/smallimage-1.jpg'">
+                <img src="img/tinyimage-1.jpg" alt = "Thumbnail 2"/>
+            </a>                  
+                    
+            <a href='img/bigimage02.jpg' class='cloud-zoom-gallery' title='Thumbnail 3' rel="useZoom: 'zoom1', smallImage: 'img/smallimage-2.jpg' ">
+                    <img src="img/tinyimage-2.jpg" alt = "Thumbnail 3"/>
+            </a>
+        </div>
     </div>
 
-</div>
+
+
+
+    
+
+
+
 
 
 </body>
@@ -53,10 +105,13 @@
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/custom.js"></script>
+
+
+<script src="assets/plugins/cloud-zoom/cloud-zoom.1.0.2.min.js"></script>
+
 <script>
   $(document).ready(function(){
-    
+
   });
 </script>
 </html>

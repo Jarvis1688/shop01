@@ -1,18 +1,17 @@
-/*Import Google Font*/
 @import url(./fonts.css);
 
-/*Import Global Compulsory CSS Files*/
+/*导入全局CSS文件*/
 @import url(app.css);
 @import url(shop.plugins.css);
 @import url(shop.blocks.css);
 
-/*Import CSS Plugins*/
+/*导入CSS插件*/
 @import url(plugins/animate.css);
 
-/*Import Headers*/
+/*导入头部CSS文件*/
 @import url(headers/header-v5.css);
 
-/*Import Footers*/
+/*导入尾部CSS文件*/
 @import url(footers/footer-v4.css);
 
 * {
@@ -84,7 +83,7 @@ li:first-child {
   	}
 }
 
-/*Illustration v1
+/*插图 v1
 ------------------------------------*/
 /*Illustration v1*/
 .illustration-v1 {
@@ -129,7 +128,7 @@ li:first-child {
     background-clip: padding-box;
 }
 
-/*Illustration Advertaisemnt Details v1*/
+/*插图广告细节 v1*/
 .illustration-v1.illustration-img1 {
 	width: 100%;
 	overflow: hidden;
@@ -181,7 +180,7 @@ li:first-child {
 	padding: 5px 30px;
 }
 
-/*Illustration Advertaisemnt Details v2*/
+/*插图广告细节 v2*/
 .illustration-v1.illustration-img2 {
 	width: 100%;
 	overflow: hidden;
@@ -236,7 +235,7 @@ li:first-child {
 	text-transform: uppercase;
 }
 
-/*Illustration v2
+/*插图 v2
 ------------------------------------*/
 /*Owl Navigation*/
 .illustration-v2 .customNavigation {
@@ -298,7 +297,7 @@ li:first-child {
 	background: rgba(0,0,0,0.5);
 }
 
-/*Add to Cart*/
+/*添加到购物车*/
 .illustration-v2 .add-to-cart {
 	left: 0;
 	right: 0;
@@ -343,7 +342,7 @@ li:first-child {
 	visibility: visible;
 }
 
-/*List Product Description*/
+/*商品描述列表*/
 .list-product-description {
 	padding: 20px 10px;
 }
@@ -360,7 +359,7 @@ li:first-child {
 	}
 }
 
-/*Product Description*/
+/*产品描述*/
 .product-description {
 	padding: 10px;
 	overflow: hidden;
@@ -434,7 +433,7 @@ li:first-child {
 	text-decoration: line-through;
 }
 
-/*Rating*/
+/*评分星星*/
 .product-ratings li {
 	padding: 0;
 }
@@ -449,7 +448,7 @@ li:first-child {
 	font-size: 14px;
 }
 
-/*Like Icon*/
+/*喜欢心形按钮*/
 .product-ratings li.like-icon  {
 	float: right;
 }

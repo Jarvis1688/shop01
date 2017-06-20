@@ -1,0 +1,137 @@
+
+//插件说明
+
+bootstarp ||  CSS 框架
+
+font-awesome || CSS字体图标文件
+
+jQuery  ||  JS 库文件
+
+jquery-steps ||  jquery 向导插件
+
+line-icons ||  简单线条图标集合
+
+master-slider  ||  支持触屏的幻灯片插件
+
+noUiSlider  ||  jQuery的范围滑块noUiSlider，inner页面左侧
+    code==========
+        $(".noUiSlider").noUiSlider({
+    
+                range: [20, 100]
+                ,start: [40, 80]
+                ,step: 20
+                ,slide: function(){
+                    var values = $(this).val();
+                    $("span").text(
+                        values[0] +
+                        " - " +
+                        values[1]
+                    );
+                }
+            
+            });
+    code/========== 
+
+owl-carousel  ||  jQuery 幻灯片插件，主banner图使用
+    code==========
+        $(function(){
+            $('#owl-example').owlCarousel();
+        });
+    code/========== 
+
+revolution-slider || jQuery幻灯片插件
+
+scrollbar  ||  jQuery滚动条美化插件 perfect-scrollbar.js
+
+jquery.mousewheel.js  ||  jQuery鼠标全屏滚动插件
+
+
+====表单相关插件
+
+sky-forms  ||  表单美化插件CSS插件
+
+jQuery.form.js  ||  异步表单提交插件，支持ajax表单提交和ajax文件上传。
+
+jquery.placeholder.min.js  ||  让IE浏览器支持placeholder属性
+
+jquery.validate.min.js  ||  jquery表单验证插件
+
+！！！！！sky-forms-ie8.js  ||  这个插件应该没有用，删掉
+
+====END 表单相关插件
+
+
+
+back-to-top || 回到顶部插件
+
+html5shiv  ||  让IE低版本支持HTML5标签
+
+jquery.parallax  ||  轻量级的的视差引擎，判断方向，用光标的位置来代替陀螺仪
+
+respond.js  ||  让IE6-8支持CSS3媒体查询
+
+
+
+//JS文件说明
+
+forms  ||  单页表单验证代码
+
+plugins  ||  调用插件代码
+    master-slide.js  ||  轮播图插件
+    owl-carousel.js  ||  轮播图插件
+    placeholder-IE-fixes.js  ||  让IE支持placeholder属性的插件
+    revolution-slider.js  ||  轮播图插件
+    stepWizard.js  ||  购物车页面向导插件
+
+shop.app.js  ||  不清楚
+
+
+//CSS文件说明
+
+footers  ||  页脚CSS文件
+
+headers  ||  页头CSS文件
+
+pages    ||  单页面CSS文件
+
+plugins  ||  插件相关CSS文件
+    animate.css  ||  
+    style-switcher.css ||  
+
+app.css  ||  
+
+fonts.css  ||  
+
+shop.blocks.css ||  
+
+shop.plugins.css  ||  
+
+shop.style.css  ||  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

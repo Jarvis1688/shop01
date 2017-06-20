@@ -14,6 +14,8 @@
 
     <!-- CSS 全局使用 -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    
     <link rel="stylesheet" href="assets/css/shop.style.css">
 
     <!-- CSS 执行插件 -->
@@ -21,7 +23,11 @@
     <!-- font-awesome 一个字体图标 -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/plugins/scrollbar/src/perfect-scrollbar.css">
+
+    <!--jQuery幻灯片插件-->
     <link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+
+
     <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css">
 
     <!-- CSS 自定义样式文件 -->
@@ -60,11 +66,11 @@
                     </div>
                     <div id="share" class="col-sm-6">
                         <ul class="list-inline right-topbar pull-right">
-                            <li>亲，欢迎光临凡客诚品！</li>
+                            <li>亲，欢迎光临！</li>
                             
-                            <li><a href="shop-ui-login.html">登录</a> | <a href="shop-ui-register.html">注册</a></li>
+                            <li><a href="shop-login.html">登录</a> | <a href="shop-register.html">注册</a></li>
 
-                            <li><a href="shop-ui-add-to-cart.html">我收藏的宝贝 (0)</a></li>
+                            <li><a href="shop-add-to-cart.html">我收藏的宝贝 (0)</a></li>
                             <li><i class="search fa fa-search search-button"></i></li>
                             
                         </ul>
@@ -107,15 +113,15 @@
                             <!--购物车列表-->
                             <ul id="scrollbar" class="list-unstyled badge-open contentHolder">
                                 <li>
-                                    <img src="assets/img/thumb/01.jpg" alt="">
+                                    <a href="shop-inner.html"><img src="assets/img/thumb/07.jpg" alt=""></a>
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
-                                        <span>女装</span>
-                                        <small>1 x $400.00</small>
+                                        <span>T恤</span>
+                                        <small>￥65.00</small>
                                     </div>    
                                 </li>
                                 <li>
-                                    <img src="assets/img/thumb/02.jpg" alt="">
+                                    <a href="shop-inner.html"><img src="assets/img/thumb/02.jpg" alt=""></a>
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
                                         <span>眼镜</span>
@@ -123,24 +129,24 @@
                                     </div>    
                                 </li>
                                 <li>
-                                    <img src="assets/img/thumb/03.jpg" alt="">
+                                    <a href="shop-inner.html"><img src="assets/img/thumb/08.jpg" alt=""></a>
                                     <button type="button" class="close">×</button>
                                     <div class="overflow-h">
-                                        <span>皮带</span>
+                                        <span>裤子</span>
                                         <small>￥95</small>
                                     </div>    
                                 </li>
                                 <li class="subtotal">
                                     <div class="overflow-h margin-bottom-10">
                                         <span>总计</span>
-                                        <small>￥95</small>
+                                        <small>￥295</small>
                                     </div>
                                     <div class="row">    
                                         <div class="col-xs-6">
-                                            <a href="shop-ui-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">查看详情</a>
+                                            <a href="shop-add-to-cart.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">查看购物车</a>
                                         </div>
                                         <div class="col-xs-6">
-                                            <a href="shop-ui-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">查看购物车</a>
+                                            <a href="shop-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">立即付款</a>
                                         </div>
                                     </div>        
                                 </li>    
@@ -160,22 +166,22 @@
                         <!-- Pages -->
                         <li class="dropdown active">
                             <!--<a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">-->
-                            <a href="./shop-ui-filter-grid.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                            <a href="./shop-filter-grid.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
                                 T恤
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="shop-ui-inner.html">熊本熊</a></li>
-                                <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                <li><a href="shop-ui-inner.html">光变色</a></li>
-                                <li><a href="shop-ui-inner.html">十二星座</a></li>
+                                <li class="active"><a href="shop-inner.html">熊本熊</a></li>
+                                <li><a href="shop-inner.html">社会狗</a></li>
+                                <li><a href="shop-inner.html">光变色</a></li>
+                                <li><a href="shop-inner.html">十二星座</a></li>
 
                                 <!--
-                                    <li><a href="shop-ui-inner.html">内容</a></li>
-                                    <li><a href="shop-ui-filter-grid.html">列表页1</a></li>
-                                    <li><a href="shop-ui-filter-list.html">列表页2</a></li>
-                                    <li><a href="shop-ui-add-to-cart.html">添加到购物车</a></li>
-                                    <li><a href="shop-ui-login.html">登录</a></li>
-                                    <li><a href="shop-ui-register.html">注册</a></li>
+                                    <li><a href="shop-inner.html">内容</a></li>
+                                    <li><a href="shop-filter-grid.html">列表页1</a></li>
+                                    <li><a href="shop-filter-list.html">列表页2</a></li>
+                                    <li><a href="shop-add-to-cart.html">添加到购物车</a></li>
+                                    <li><a href="shop-login.html">登录</a></li>
+                                    <li><a href="shop-register.html">注册</a></li>
                                 -->
                             </ul>
                         </li>
@@ -203,7 +209,7 @@
                                         <li><a href="#">青年布</a></li>
                                     </ul>    
                                 </li>
-                                <li><a href="shop-ui-inner.html">休闲</a></li>
+                                <li><a href="shop-inner.html">休闲</a></li>
                             </ul>
                         </li>
                         <!-- End 衬衫 -->
@@ -272,13 +278,13 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">T恤</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">鞋</h3>
                                                     <ul class="list-unstyled style-list">
@@ -294,18 +300,18 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">衬衫</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">麻</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">水柔绵</h3>
                                                     <ul class="list-unstyled style-list">
@@ -319,19 +325,19 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">外套</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">复古跑鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">户外鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
                                                     </ul>
                                                 </div>        
 
@@ -339,21 +345,21 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">裤装</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a>  <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a>  <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">佩饰</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">复古跑鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
                                                     </ul>
                                                 </div>
 
@@ -361,25 +367,25 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">卫衣</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">复古跑鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">牛仔</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">复古跑鞋</a>   <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a>   <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
                                                     </ul>
                                                     <h3 class="mega-menu-heading">睡衣</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
                                                         
                                                     </ul>
                                                 </div>
@@ -388,19 +394,19 @@
                                                 <div class="col-md-2 col-sm-6">
                                                     <h3 class="mega-menu-heading">外套</h3>
                                                     <ul class="list-unstyled style-list">
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
-                                                        <li><a href="shop-ui-inner.html">社会狗</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">帆布鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">复古跑鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">户外鞋</a></li>
-                                                        <li><a href="shop-ui-inner.html">光变色</a></li>
-                                                        <li><a href="shop-ui-inner.html">十二星座</a></li>
-                                                        <li><a href="shop-ui-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
                                                     </ul>
                                                 </div>  
                                             </div>
@@ -414,12 +420,12 @@
                         <!-- End 私人订制 -->
 
                         <!-- 家居 -->
-                        <li><a href="./shop-ui-filter-grid.html">家居</a></li>
+                        <li><a href="./shop-filter-grid.html">家居</a></li>
                         <!-- end 家居 -->
 
 
                         <!-- 水柔绵 -->
-                        <li><a href="./shop-ui-filter-list.html">水柔绵</a></li>
+                        <li><a href="./shop-filter-list.html">水柔绵</a></li>
                         <!-- end 水柔绵 -->
                     </ul>
                 </div><!--/navbar-collapse-->
@@ -490,7 +496,7 @@
                         <div class="illustration-bg">
                             <div class="illustration-ads ad-details-v1">
                                 <h3><strong>618</strong>年中大促，双优惠！ 2件 <strong>8</strong> 折</h3>
-                                <a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#">立即抢购</a>
+                                <a class="btn-u btn-brd btn-brd-hover btn-u-light" href="./shop-filter-grid.html">立即抢购</a>
                             </div>    
                         </div>    
                     </div>
@@ -498,7 +504,7 @@
             </div>
             <div class="col-md-6">
                 <div class="overflow-h">
-                    <a class="illustration-v1 illustration-img2" href="#">
+                    <a class="illustration-v1 illustration-img2" href="./shop-filter-list.html">
                         <span class="illustration-bg">
                             <span class="illustration-ads ad-details-v2">
                                 <span class="item-time">春季新品</span>
@@ -525,14 +531,14 @@
             <ul class="list-inline owl-slider">
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">MIC夏装创意文字男士短袖</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">MIC夏装创意文字男士短袖</a></h4>
                                 <span class="gender text-uppercase">男装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -547,20 +553,20 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">2017新款套装女裙雪纺</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">2017新款套装女裙雪纺</a></h4>
                                 <span class="gender text-uppercase">女装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -575,20 +581,20 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">MIC夏装创意文字男士短袖</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">MIC夏装创意文字男士短袖</a></h4>
                                 <span class="gender text-uppercase">男装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -603,20 +609,20 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">2017新款套装女裙雪纺</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">2017新款套装女裙雪纺</a></h4>
                                 <span class="gender text-uppercase">女装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -631,20 +637,20 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">MIC夏装创意文字男士短袖</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">MIC夏装创意文字男士短袖</a></h4>
                                 <span class="gender text-uppercase">男装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -659,20 +665,20 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
                 <li class="item">
                     <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                     </div>
                     <div class="product-description product-description-brd">
                         <div class="overflow-h margin-bottom-5">
                             <div class="pull-left">
-                                <h4 class="title-price"><a href="shop-ui-inner.html">2017新款套装女裙雪纺</a></h4>
+                                <h4 class="title-price"><a href="shop-inner.html">2017新款套装女裙雪纺</a></h4>
                                 <span class="gender text-uppercase">女装</span>
                                 <span class="gender">休闲 - 夏季</span>
                             </div>    
@@ -687,7 +693,7 @@
                             <li><i class="rating-selected fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
                             <li><i class="rating fa fa-star"></i></li>
-                            <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                            <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                         </ul>    
                     </div>
                 </li>
@@ -699,12 +705,12 @@
         <div class="row margin-bottom-50">
             <div class="col-md-4 md-margin-bottom-30">
                 <div class="overflow-h">
-                    <a class="illustration-v3 illustration-img1" href="#">
+                    <a class="illustration-v3 illustration-img1" href="./shop-filter-grid.html">
                         <span class="illustration-bg">
                             <span class="illustration-ads">
                                 <span class="illustration-v3-category">
-                                    <span class="product-category">Men</span>
-                                    <span class="product-amount">56 Items</span>
+                                    <span class="product-category">精品男装</span>
+                                    <span class="product-amount">1156 件商品</span>
                                 </span>    
                             </span>    
                         </span>    
@@ -713,12 +719,12 @@
             </div>
             <div class="col-md-4 md-margin-bottom-30">
                 <div class="overflow-h">
-                    <a class="illustration-v3 illustration-img2" href="#">
+                    <a class="illustration-v3 illustration-img2" href="./shop-filter-grid.html">
                         <span class="illustration-bg">
                             <span class="illustration-ads">
                                 <span class="illustration-v3-category">
-                                    <span class="product-category">Women</span>
-                                    <span class="product-amount">56 Items</span>
+                                    <span class="product-category">精品女装</span>
+                                    <span class="product-amount">2580 件商品</span>
                                 </span>    
                             </span>    
                         </span>    
@@ -727,12 +733,12 @@
             </div>
             <div class="col-md-4">
                 <div class="overflow-h">
-                    <a class="illustration-v3 illustration-img3" href="#">
+                    <a class="illustration-v3 illustration-img3" href="./shop-filter-grid.html">
                         <span class="illustration-bg">
                             <span class="illustration-ads">
                                 <span class="illustration-v3-category">
-                                    <span class="product-category">Children</span>
-                                    <span class="product-amount">56 Items</span>
+                                    <span class="product-category">精品童装</span>
+                                    <span class="product-amount">1188 件商品</span>
                                 </span>    
                             </span>    
                         </span>    
@@ -750,14 +756,14 @@
         <div class="row illustration-v2">
             <div class="col-md-3 col-sm-6 md-margin-bottom-30">
                 <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                 </div>
                 <div class="product-description product-description-brd">
                     <div class="overflow-h margin-bottom-5">
                         <div class="pull-left">
-                            <h4 class="title-price"><a href="shop-ui-inner.html">MIC夏装创意文字男士短袖</a></h4>
+                            <h4 class="title-price"><a href="shop-inner.html">MIC夏装创意文字男士短袖</a></h4>
                             <span class="gender text-uppercase">男装</span>
                             <span class="gender">休闲 - 夏季</span>
                         </div>    
@@ -772,20 +778,20 @@
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
-                        <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                     </ul>    
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-30">
                 <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                 </div>
                 <div class="product-description product-description-brd">
                     <div class="overflow-h margin-bottom-5">
                         <div class="pull-left">
-                            <h4 class="title-price"><a href="shop-ui-inner.html">2017新款套装女裙雪纺</a></h4>
+                            <h4 class="title-price"><a href="shop-inner.html">2017新款套装女裙雪纺</a></h4>
                             <span class="gender text-uppercase">女装</span>
                             <span class="gender">休闲 - 夏季</span>
                         </div>    
@@ -800,20 +806,20 @@
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
-                        <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                     </ul>    
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-30">
                 <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img1.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                 </div>
                 <div class="product-description product-description-brd">
                     <div class="overflow-h margin-bottom-5">
                         <div class="pull-left">
-                            <h4 class="title-price"><a href="shop-ui-inner.html">MIC夏装创意文字男士短袖</a></h4>
+                            <h4 class="title-price"><a href="shop-inner.html">MIC夏装创意文字男士短袖</a></h4>
                             <span class="gender text-uppercase">男装</span>
                             <span class="gender">休闲 - 夏季</span>
                         </div>    
@@ -828,20 +834,20 @@
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
-                        <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                     </ul>    
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-30">
                 <div class="product-img">
-                        <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
-                        <a class="product-review" href="shop-ui-inner.html">查看详情</a>
+                        <a href="shop-inner.html"><img class="full-width img-responsive" src="assets/img/blog/img2.jpg" alt=""></a>
+                        <a class="product-review" href="shop-inner.html">查看详情</a>
                         <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>添加到购物车</a>
                 </div>
                 <div class="product-description product-description-brd">
                     <div class="overflow-h margin-bottom-5">
                         <div class="pull-left">
-                            <h4 class="title-price"><a href="shop-ui-inner.html">2017新款套装女裙雪纺</a></h4>
+                            <h4 class="title-price"><a href="shop-inner.html">2017新款套装女裙雪纺</a></h4>
                             <span class="gender text-uppercase">女装</span>
                             <span class="gender">休闲 - 夏季</span>
                         </div>    
@@ -856,7 +862,7 @@
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
                         <li><i class="rating fa fa-star"></i></li>
-                        <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li class="like-icon"><a data-original-title="关注该商品" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                     </ul>    
                 </div>
             </div>
@@ -865,63 +871,7 @@
     </div>
     <!-- End 产品内容模块 -->
 
-    <!-- 推文模块 -->
-    <div class="parallaxBg twitter-block margin-bottom-60">
-        <div class="container">
-            <div class="heading heading-v1 margin-bottom-20">
-                <h2>最新推文</h2>
-            </div>
 
-            <div id="carousel-example-generic-v5" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li class="active rounded-x" data-target="#carousel-example-generic-v5" data-slide-to="0"></li>
-                    <li class="rounded-x" data-target="#carousel-example-generic-v5" data-slide-to="1"></li>
-                    <li class="rounded-x" data-target="#carousel-example-generic-v5" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <p>统一已经达到10000加销售，我们只想感谢您对我们所有的客户进行统一模板成功的一部分<p>
-                        <p><a href="https://twitter.com/htmlstream">@htmlstream</a></p>
-                        <ul class="list-inline twitter-icons">
-                            <li><a href="#"><i class="fa fa-reply"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <p>大多数人以某种形式，注入幽默，或者看起来甚至不太可信的随机词都遭受了偏差。 如果你要使用Lorem Ipsum的通道</p>
-                        <p><a href="https://twitter.com/htmlstream">@twbootstrap</a></p>
-                        <ul class="list-inline twitter-icons">
-                            <li><a href="#"><i class="fa fa-reply"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <p>新100％免费库存照片。每一个。 单。 天。 您的创意项目所需的一切。</p>
-                        <p><a href="https://twitter.com/htmlstream">@wrapbootstrap</a></p>
-                        <ul class="list-inline twitter-icons">
-                            <li><a href="#"><i class="fa fa-reply"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="carousel-arrow">
-                    <a class="left carousel-control" href="#carousel-example-generic-v5" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic-v5" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                </div>
-            </div>                        
-        </div>    
-    </div>
-    <!-- End 推文模块 -->
 
     <!--产品服务和排行榜-->
     <div class="container">
@@ -936,7 +886,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/08.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">夏季薄男裤商务直筒宽松</a></h4>
+                        <h4><a href="shop-inner.html">夏季薄男裤商务直筒宽松</a></h4>
                         <span class="thumb-product-type">NIAN JEEP</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -948,7 +898,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/02.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">薛之谦同款黑框眼镜复古</a></h4>
+                        <h4><a href="shop-inner.html">薛之谦同款黑框眼镜复古</a></h4>
                         <span class="thumb-product-type">港岛眼镜</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -959,7 +909,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/10.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
+                        <h4><a href="shop-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
                         <span class="thumb-product-type">七匹狼</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -975,7 +925,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/08.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">夏季薄男裤商务直筒宽松</a></h4>
+                        <h4><a href="shop-inner.html">夏季薄男裤商务直筒宽松</a></h4>
                         <span class="thumb-product-type">NIAN JEEP</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -987,7 +937,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/02.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">薛之谦同款黑框眼镜复古</a></h4>
+                        <h4><a href="shop-inner.html">薛之谦同款黑框眼镜复古</a></h4>
                         <span class="thumb-product-type">港岛眼镜</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -998,7 +948,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/10.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
+                        <h4><a href="shop-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
                         <span class="thumb-product-type">七匹狼</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -1014,7 +964,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/08.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">夏季薄男裤商务直筒宽松</a></h4>
+                        <h4><a href="shop-inner.html">夏季薄男裤商务直筒宽松</a></h4>
                         <span class="thumb-product-type">NIAN JEEP</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -1026,7 +976,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/02.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">薛之谦同款黑框眼镜复古</a></h4>
+                        <h4><a href="shop-inner.html">薛之谦同款黑框眼镜复古</a></h4>
                         <span class="thumb-product-type">港岛眼镜</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -1037,7 +987,7 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="assets/img/thumb/10.jpg" alt="">
                     <div class="thumb-product-in">
-                        <h4><a href="shop-ui-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
+                        <h4><a href="shop-inner.html">七匹狼钱包男士短款真皮正品</a></h4>
                         <span class="thumb-product-type">七匹狼</span>
                     </div>
                     <ul class="list-inline overflow-h">
@@ -1051,31 +1001,7 @@
     </div><!--/end cotnainer-->
     <!--End 产品服务和排行榜-->
 
-    <!-- 收藏模块横幅 -->
-    <div class="collection-banner margin-bottom-60">
-        <div class="container">
-            <div class="col-md-7 md-margin-bottom-50">
-                <h2>618年中大促双优惠</h2>
-                <p>凡客诚品,衬衫休闲,商务多款精选 充值购买更优惠,充100返100 凡客诚品,互联网时尚品牌,年轻潮牌,体验与众不同 支持货到付款,30天退换货</p><br>
-                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">立即抢购</a>
-            </div>
-            <div class="col-md-5">
-                <div class="overflow-h">
-                    <span class="percent-numb">50</span>
-                    <div class="percent-off">
-                        <span class="discount-percent">%</span>
-                        <span class="discount-off">off</span>
-                    </div>
-                    <div class="new-offers shop-bg-green rounded-x">
-                        <p>现货</p>
-                        <span>发售</span>
-                    </div>    
-                </div>    
-            </div>
-        </div>
-        
-    </div>
-    <!-- End 收藏模块横幅 -->
+
 
     <div class="container">
         <!-- 产品服务模块 -->
@@ -1301,38 +1227,44 @@
     <!-- End Footer模块 v4 -->
 </div><!--/wrapper-->
 
-<!-- JS 全局必须调用 -->
+
+
+<!-- JS 全局插件 -->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
-<!--jquery-migrate应用迁移辅助插件，就是一个过渡插件 让你在原来代码上升级jquery 不用修改代码用的-->
-<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<!--jquery-migrate应用迁移辅助插件-->
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!-- JS 执行插件 -->
-<!--返回顶部-->
+<!--返回顶部插件-->
 <script src="assets/plugins/back-to-top.js"></script>
-<!-- owl-carousel 支持触屏的幻灯片插件 -->
-<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
-<!-- mousewheel jQuery鼠标滚轮滚动侦测插件 -->
+<!-- mousewheel jQuery鼠标滚轮插件，给购物车弹出框加上滚轮效果 -->
 <script src="assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
-<!-- JQuery 滚动条插件perfect-scrollbar -->
+<!-- JQuery 滚动条插件perfect-scrollbar，给购物车弹出框加上滚动条效果 -->
 <script src="assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
-<!--轻量级的的视差引擎Parallax -->
-<script src="assets/plugins/jquery.parallax.js"></script>
+
+
+
+<!-- JS 局部插件 -->
+<!-- owl-carousel 跑马灯式幻灯片插件 -->
+<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
 <!--Slider Revolution jquery内容切换（幻灯片）插件-->
 <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+
 <!-- JS 自定义代码 -->
-<script src="assets/js/custom.js"></script>
-<!-- JS 页面级别 -->
 <script src="assets/js/shop.app.js"></script>
-<!-- owl-carousel 支持触屏的幻灯片插件 -->
-<script src="assets/js/plugins/owl-carousel.js"></script>
-<script src="assets/js/plugins/revolution-slider.js"></script>
+<!-- JS  扩展代码-->
+<script src="assets/js/custom.js"></script>
 
 <script>
     $(document).ready(function() {
         App.init();
-        App.initParallaxBg();
+        
+
+        // 跑马灯式幻灯片插件
         OwlCarousel.initOwlCarousel();
+
+        // 首页主banner图幻灯片插件
         RevolutionSlider.initRSfullWidth(); 
 });
 </script>

@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="zh-cn"> <!--<![endif]-->  
+<head>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>凡客诚品</title>
+    <meta name="description" content="专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+    <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,凡客诚品" />
+    <!-- Favicon图标 -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/shop.style.css">
+     
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/scrollbar/src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/plugins/noUiSlider/jquery.nouislider.css">
+    
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>	
+
+<body class="header-fixed">
+
+<div class="wrapper">
+    <!-- 头部模块 v5 -->   
+    <div class="header-v5 header-static">
+        <!-- Topbar模块 v3 -->
+
+        <div class="topbar-v3">
+
+
+            <div class="search-open">
+                <div class="container">
+                    <input type="text" class="form-control" placeholder="卫衣">
+                    <div class="search-close"><i class="icon-close"></i></div>
+                </div>    
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="social-sharing left-topbar"> 
+                            <li><span><a rel="nofollow" href="http://weibo.com/" title="微博">新浪微博</a></span> </li>
+                            <li><span class="tencent"><a rel="nofollow" href="http://t.qq.com/" target="_blank">腾讯微博</a></span> </li>
+                            <li><span class="qq"><a rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=/qq&amp;menu=yes" title="腾讯QQ">腾讯QQ</a></span></li> 
+                            <li><span class="weixin"><a href="#">微信</a></span> </li>
+                            
+                        </ul>
+                        <!--/end left-topbar-->
+                    </div>
+                    <div id="share" class="col-sm-6">
+                        <ul class="list-inline right-topbar pull-right">
+                            <li>亲，欢迎光临！</li>
+                            
+                            <li><a href="shop-login.html">登录</a> | <a href="shop-register.html">注册</a></li>
+
+                            <li><a href="shop-add-to-cart.html">我收藏的宝贝 (0)</a></li>
+                            <li><i class="search fa fa-search search-button"></i></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/container-->
+        </div>
+        <!-- End Topbar模块 v3 -->
+
+        <!-- 主导航模块 -->
+        <div class="navbar navbar-default mega-menu" role="navigation">
+
+            <div id="navbar-main" class="container">
+                <!-- 为移动端匹配品牌和切换分组 -->
+                
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <!--<img id="logo-header" src="assets/img/logo.png" alt="Logo">-->
+                        <h2 class="logo">凡客诚品 VANCL</h2>
+                    </a>
+                </div>
+
+                <!-- 集合导航链接，表单和其他内容进行切换 -->
+                <!--collapse 折叠-->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    
+                    <!-- 购物车模块 -->
+                    <ul class="list-inline shop-badge badge-lists badge-icons pull-right">
+                        <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                            
+                            <span class="badge badge-sea rounded-x">3</span>
+                            <!--购物车列表-->
+                            <ul id="scrollbar" class="list-unstyled badge-open contentHolder">
+                                <li>
+                                    <img src="assets/img/thumb/01.jpg" alt="">
+                                    <button type="button" class="close">×</button>
+                                    <div class="overflow-h">
+                                        <span>女装</span>
+                                        <small>1 x $400.00</small>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <img src="assets/img/thumb/02.jpg" alt="">
+                                    <button type="button" class="close">×</button>
+                                    <div class="overflow-h">
+                                        <span>眼镜</span>
+                                        <small>￥95</small>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <img src="assets/img/thumb/03.jpg" alt="">
+                                    <button type="button" class="close">×</button>
+                                    <div class="overflow-h">
+                                        <span>皮带</span>
+                                        <small>￥95</small>
+                                    </div>    
+                                </li>
+                                <li class="subtotal">
+                                    <div class="overflow-h margin-bottom-10">
+                                        <span>总计</span>
+                                        <small>￥95</small>
+                                    </div>
+                                    <div class="row">    
+                                        <div class="col-xs-6">
+                                            <a href="shop-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">查看详情</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <a href="shop-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">查看购物车</a>
+                                        </div>
+                                    </div>        
+                                </li>    
+                            </ul>
+                            <!--End 购物车列表-->
+                        </li>
+                    </ul>
+                    <!-- End 购物车模块 -->
+
+
+
+                    <!--主导航模块-->
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="./index.html">首页</a></li>
+
+                        <!-- Pages -->
+                        <li class="dropdown active">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                                T恤
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="shop-inner.html">熊本熊</a></li>
+                                <li><a href="shop-inner.html">社会狗</a></li>
+                                <li><a href="shop-inner.html">光变色</a></li>
+                                <li><a href="shop-inner.html">十二星座</a></li>
+
+                                <!--
+                                    <li><a href="shop-inner.html">内容</a></li>
+                                    <li><a href="shop-filter-grid.html">列表页1</a></li>
+                                    <li><a href="shop-filter-list.html">列表页2</a></li>
+                                    <li><a href="shop-add-to-cart.html">添加到购物车</a></li>
+                                    <li><a href="shop-login.html">登录</a></li>
+                                    <li><a href="shop-register.html">注册</a></li>
+                                -->
+                            </ul>
+                        </li>
+                        <!-- End Pages -->
+
+                        <!-- 衬衫 -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                                衬衫
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="javascript:void(0);">定制</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">法兰绒</a></li>
+                                        <li><a href="#">牛津纺</a></li>
+                                        <li><a href="#">青年布</a></li>
+                                    </ul>    
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="javascript:void(0);">免烫</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">法兰绒</a></li>
+                                        <li><a href="#">牛津纺</a></li>
+                                        <li><a href="#">青年布</a></li>
+                                    </ul>    
+                                </li>
+                                <li><a href="shop-inner.html">休闲</a></li>
+                            </ul>
+                        </li>
+                        <!-- End 衬衫 -->
+
+                        <!-- Gifts -->
+                        <li class="dropdown mega-menu-fullwidth">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                                C9系列
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="mega-menu-content">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-12 col-xs-12 md-margin-bottom-30">
+                                                    <h3 class="mega-menu-heading">C9系列</h3>
+                                                    <p>凡客VANCL 官方网站,互联网快时尚品牌,网上购物优选品牌,提供男装,女装,鞋类等多种商品网购,您可以购买衬衫，外套，帆布鞋，T恤等更多热卖单品,支持7天无理由退换货，全场支持货到付款。致力为您提供更优质、专业配送、售后服务，为您提供愉悦的便捷的购物体验！</p>
+                                                    <button type="button" class="btn-u btn-u-dark">更多</button>
+                                                </div>
+                                                <div class="col-md-3 col-sm-4 col-xs-4 md-margin-bottom-30">
+                                                    <a href="#"><img class="product-offers img-responsive" src="assets/img/blog/01.jpg" alt=""></a>
+                                                </div>
+                                                <div class="col-md-3 col-sm-4 col-xs-4 sm-margin-bottom-30">
+                                                    <a href="#"><img class="product-offers img-responsive" src="assets/img/blog/02.jpg" alt=""></a>
+                                                </div>
+                                                <div class="col-md-3 col-sm-4 col-xs-4">
+                                                    <a href="#"><img class="product-offers img-responsive" src="assets/img/blog/03.jpg" alt=""></a>
+                                                </div>
+                                            </div><!--/end row-->
+                                        </div><!--/end container-->
+                                    </div><!--/end mega menu content-->  
+                                </li>
+                            </ul><!--/end dropdown-menu-->
+                        </li>
+                        <!-- End Gifts -->
+
+                        
+
+                        <!-- 鞋 -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000">
+                                鞋
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">复古跑鞋</a></li>
+                                <li><a href="#">户外鞋</a></li>
+                                <li><a href="#">帆布鞋</a></li>
+                            </ul>
+                        </li>
+                        <!-- End 鞋 -->
+
+
+                        <!-- 私人订制 -->
+                        <li class="dropdown mega-menu-fullwidth">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                                私人订制
+                            </a>
+                            <!--巨幅菜单-->
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="mega-menu-content">
+                                        <div class="container">
+                                            <!--网格布局-->
+                                            <div class="row">
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">T恤</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">鞋</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="#">复古跑鞋</a></li>
+                                                        <li><a href="#">户外鞋</a></li>
+                                                        <li><a href="#">帆布鞋</a></li>
+                                                        <li><a href="#">复古跑鞋</a></li>
+                                                        <li><a href="#">户外鞋</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">衬衫</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">麻</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">十二星座</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">水柔绵</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="#">帆布鞋</a></li>
+                                                        <li><a href="#">复古跑鞋</a></li>
+                                                        <li><a href="#">户外鞋</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">外套</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                    </ul>
+                                                </div>        
+
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">裤装</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a>  <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">佩饰</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">卫衣</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">牛仔</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a>   <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                    </ul>
+                                                    <h3 class="mega-menu-heading">睡衣</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+
+                                                <!--**************-->
+                                                <div class="col-md-2 col-sm-6">
+                                                    <h3 class="mega-menu-heading">外套</h3>
+                                                    <ul class="list-unstyled style-list">
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a> <span class="label label-danger-shop">New</span></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                        <li><a href="shop-inner.html">社会狗</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">帆布鞋</a></li>
+                                                        <li><a href="shop-inner.html">复古跑鞋</a></li>
+                                                        <li><a href="shop-inner.html">户外鞋</a></li>
+                                                        <li><a href="shop-inner.html">光变色</a></li>
+                                                        <li><a href="shop-inner.html">十二星座</a></li>
+                                                        <li><a href="shop-inner.html">熊本熊</a></li>
+                                                    </ul>
+                                                </div>  
+                                            </div>
+                                            <!--/end 网格布局-->
+                                        </div><!--/end container-->
+                                    </div><!--/end mega menu content-->  
+                                </li>
+                            </ul>
+                            <!--END 巨幅菜单-->
+                        </li>
+                        <!-- End 私人订制 -->
+
+                        <!-- 家居 -->
+                        <li><a href="./shop-filter-grid.html">家居</a></li>
+                        <!-- end 家居 -->
+
+
+                        <!-- 水柔绵 -->
+                        <li><a href="./shop-filter-list.html">水柔绵</a></li>
+                        <!-- end 水柔绵 -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>    
+        </div>            
+        <!-- End 主导航模块 -->
+    </div>
+    <!-- End 头部模块 v5 -->
+
+    <!--=== 面包屑导航 ===-->
+
+    <div class="container breadcrumb-top">
+        <ol class="breadcrumb">
+            <li><a href="./index.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="#">男装</a></li>
+            <li class="active">精品男装十二星座</li>
+        </ol>
+    </div>
+
+    <!--=== End 面包屑导航 ===-->
+
+    <!--=== Content Part ===-->
+    <div class="content container">
+        <div class="row">
+
+            <!--侧边栏模块-->
+            <div class="col-md-3 filter-by-block md-margin-bottom-60">
+                <h1>全部商品</h1>
+
+                <!--品牌分类模块-->
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    主题市场
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="list-unstyled checkbox-list">
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" checked />
+                                            <i></i>
+                                            女装
+                                            <small><a href="#">(23)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" checked />
+                                            <i></i>
+                                            男装
+                                            <small><a href="#">(4)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            儿童
+                                            <small><a href="#">(11)</a></small>
+                                        </label>
+                                    </li>
+                                </ul>        
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+
+                <div class="panel-group" id="accordion-v2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
+                                    全部分类
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="list-unstyled checkbox-list">
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" checked />
+                                            <i></i>
+                                            外套
+                                            <small><a href="#">(23)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" checked />
+                                            <i></i>
+                                            裤装
+                                            <small><a href="#">(4)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            内衣
+                                            <small><a href="#">(11)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            T恤
+                                            <small><a href="#">(11)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            衬衫
+                                            <small><a href="#">(11)</a></small>
+                                        </label>
+                                    </li>
+                                </ul>        
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+
+                <div class="panel-group" id="accordion-v3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
+                                    选择尺寸
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="list-unstyled checkbox-list">
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            S
+                                            <small><a href="#">(23)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" checked />
+                                            <i></i>
+                                            M
+                                            <small><a href="#">(4)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            L
+                                            <small><a href="#">(11)</a></small>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="checkbox" />
+                                            <i></i>
+                                            XL
+                                            <small><a href="#">(3)</a></small>
+                                        </label>
+                                    </li>
+                                </ul>        
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+
+                <div class="panel-group" id="accordion-v4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
+                                    价格
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="slider-snap"></div>
+                                <p class="slider-snap-text">
+                                    <span class="slider-snap-value-lower"></span>
+                                    <span class="slider-snap-value-upper"></span>
+                                </p>    
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+
+                <div class="panel-group" id="accordion-v5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
+                                    颜色
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="list-inline product-color-list">
+                                    <li><a href="#"><img src="assets/img/colors/01.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/02.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/03.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/04.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/05.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/06.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/colors/07.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+
+                <div class="panel-group margin-bottom-30" id="accordion-v6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
+                                    评分
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="stars-ratings stars-ratings-label">
+                                    <input type="radio" name="stars-rating" id="stars-rating-5">
+                                    <label for="stars-rating-5"><i class="fa fa-star"></i></label>
+                                    <input type="radio" name="stars-rating" id="stars-rating-4">
+                                    <label for="stars-rating-4"><i class="fa fa-star"></i></label>
+                                    <input type="radio" name="stars-rating" id="stars-rating-3">
+                                    <label for="stars-rating-3"><i class="fa fa-star"></i></label>
+                                    <input type="radio" name="stars-rating" id="stars-rating-2">
+                                    <label for="stars-rating-2"><i class="fa fa-star"></i></label>
+                                    <input type="radio" name="stars-rating" id="stars-rating-1">
+                                    <label for="stars-rating-1"><i class="fa fa-star"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/end panel group-->
+                <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-lg btn-u-sea-shop btn-block">默认</button>
+            </div>
+            <!--END 侧边栏模块-->
+
+
+            <!--商品列表模块-->
+            <div class="col-md-9">
+
+                <!--商品过滤组件-->
+                <div class="row margin-bottom-5">
+                    <div class="col-sm-4 result-category">
+                        <h2>综合排序</h2>
+                        <small class="shop-bg-red badge-results">45 条结果</small>
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="list-inline clear-both">
+                            <li class="grid-list-icons">
+                                <a href="shop-filter-list.html"><i class="fa fa-th-list"></i></a>
+                                <a href="shop-filter-grid.html"><i class="fa fa-th"></i></a>
+                            </li>
+                            <li class="sort-list-btn">
+                                <h3>排序 :</h3>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        销量 <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">综合排序</a></li>
+                                        <li><a href="#">销量</a></li>
+                                        <li><a href="#">人气</a></li>
+                                        <li><a href="#">信用</a></li>
+                                        <li><a href="#">价格</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sort-list-btn">
+                                <h3>显示 :</h3>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        20条 <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">所有</a></li>
+                                        <li><a href="#">10条</a></li>
+                                        <li><a href="#">5条</a></li>
+                                        <li><a href="#">3条</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>    
+                </div><!--/end result category-->
+                <!--END 商品过滤组件-->
+
+                <div class="filter-results">
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="list-product-description product-description-brd margin-bottom-30">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="list-product-description product-description-brd">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="shop-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
+                            </div> 
+                            <div class="col-sm-8 product-description">
+                                <div class="overflow-h margin-bottom-5">
+                                    <ul class="list-inline overflow-h">
+                                        <li><h4 class="title-price"><a href="shop-inner.html">夏季薄男裤商务直筒</a></h4></li>
+                                        <li><span class="gender text-uppercase">NIAN JEEP</span></li>
+                                        <li class="pull-right">
+                                            <ul class="list-inline product-ratings">
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating-selected fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                                <li><i class="rating fa fa-star"></i></li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                    <div class="margin-bottom-10">
+                                        <span class="title-price margin-right-10">￥60.00</span>
+                                        <span class="title-price line-through">￥95.00</span>
+                                    </div>    
+                                    <p class="margin-bottom-20">2017春夏新款，冰丝棉抗皱免烫弹力休闲裤 全新上架 密度高,面料舒适，富有质感，美观，裤子做工精湛、走线明朗，关键部位多重加固！抗皱免烫，版型，宽松直筒，支持七天无理由退换，购买运费险，让亲无忧购物体验！按照平时穿买！两条立减10元！</p>
+                                    <ul class="list-inline add-to-wishlist margin-bottom-20">
+                                        <li class="wishlist-in">
+                                            <i class="fa fa-heart"></i>
+                                            <a href="#">关注该商品</a>
+                                        </li>
+                                        <li class="compare-in">
+                                            <i class="fa fa-exchange"></i>
+                                            <a href="#">比较</a>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn-u btn-u-sea-shop">添加到购物车</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>      
+                </div><!--/end filter resilts-->
+
+                <div class="text-center">
+                    <ul class="pagination pagination-v2">
+                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>                                                            
+                </div><!--/end pagination-->
+            </div>
+            <!--END 商品列表模块-->
+
+        </div><!--/end row-->
+    </div><!--/end container-->    
+    <!--=== End Content Part ===-->
+
+
+
+    <!-- 商品订阅模块 -->
+    <div class="shop-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 md-margin-bottom-20">
+                    <h2>订阅我们</h2>
+                </div>  
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="输入你的Email地址">
+                        <span class="input-group-btn">
+                            <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
+                        </span>
+                    </div>    
+                </div>
+            </div>
+        </div><!--/end container-->
+    </div>
+    <!-- End 商品订阅模块 -->
+
+    <!-- Footer模块 v4 -->
+    <div class="footer-v4">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- 关于我们模块 -->
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <a class="" href="./index.html">
+                            <!--<img id="logo-header" src="assets/img/logo.png" alt="Logo">-->
+                            <h2 class="logo">凡客诚品 VANCL</h2>
+                        </a>
+                        <p>京东致力于成为一家为社会创造最大价值的公司。经过13年砥砺前行，京东在商业领域一次又一次突破创新，取得了跨越式发展。</p>
+                        <br>
+                        <ul class="list-unstyled address-list margin-bottom-20">
+                            <li><i class="fa fa-angle-right"></i>美国加州圣地亚哥金坷垃市</li>
+                            <li><i class="fa fa-angle-right"></i>电话: 800 123 3456</li>
+                            <li><i class="fa fa-angle-right"></i>传真: 800 123 3456</li>
+                            <li><i class="fa fa-angle-right"></i>Email: info@aaa.com</li>
+                        </ul>
+
+
+                        <div class="social-sharing clearfix"> 
+                            <span><a rel="nofollow" href="http://weibo.com/" title="微博">新浪微博</a></span> 
+                            <span class="tencent"><a rel="nofollow" href="http://t.qq.com/" target="_blank">腾讯微博</a></span> 
+                            <span class="qq"><a rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=/qq&amp;menu=yes" title="腾讯QQ">腾讯QQ</a></span> 
+                            <span class="weixin"><a href="#">微信</a></span> 
+                        </div>
+
+                        
+                        <!--End 社会化分享按钮组件-->
+
+                    </div>
+                    <!-- End 关于我们模块 -->                    
+
+                    <!-- 帮助中心模块列表 -->
+                    <div class="col-md-2 col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>    
+
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>    
+
+                    <div class="col-md-2 col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>    
+
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>  
+
+                    <div class="col-md-2 col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>    
+
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>  
+
+                    <div class="col-md-2 col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>    
+
+                            <div class="col-sm-12 col-xs-6">
+                                <h2 class="thumb-headline">购物指南</h2>
+                                <ul class="list-unstyled simple-list margin-bottom-20">
+                                    <li><a href="#">购物流程</a></li>
+                                    <li><a href="#">会员介绍</a></li>
+                                    <li><a href="#">生活旅行 </a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                    <li>...</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>  
+                    <!-- End 帮助中心模块列表 -->
+                </div><!--/end row-->
+            </div><!--/end continer-->
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">                     
+                        <p>
+                            Copyright © 2004 - 2017  凡客诚品JC.com 版权所有
+                            <a target="_blank" href="#">Jarvis</a> | <a href="#">隐私政策</a> | <a href="#">服务条款</a>
+                        </p>
+                    </div>
+                    <!--<div class="col-md-6">  
+                        <ul class="list-inline sponsors-icons pull-right">
+                            <li><i class="fa fa-cc-paypal"></i></li>
+                            <li><i class="fa fa-cc-visa"></i></li>
+                            <li><i class="fa fa-cc-mastercard"></i></li>
+                            <li><i class="fa fa-cc-discover"></i></li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div> 
+        </div><!--/copyright--> 
+    </div>
+    <!-- End Footer模块 v4 -->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->           
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="assets/plugins/back-to-top.js"></script>
+<script src="assets/plugins/noUiSlider/jquery.nouislider.full.min.js"></script>
+<!-- Scrollbar -->
+<script src="assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
+<script src="assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
+<!-- JS Customization -->
+<script src="assets/js/custom.js"></script>
+<!-- JS Page Level -->           
+<script src="assets/js/shop.app.js"></script>
+
+<script>
+    jQuery(document).ready(function() {
+        App.init();
+        App.initMouseWheel();    
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+<!--Respond.js让IE6-8支持CSS3 Media Query
+html5shiv.js让IE6、IE7、IE8支持html5
+placeholder-IE-fixes.js让IE支持placeholder属性-->
+
+</body>
+</html> 

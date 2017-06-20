@@ -150,3 +150,20 @@ h2.logo{
 }
 
 
+
+/*首页图片*/
+.illustration-v3.illustration-img1 {
+    background-image: url(../img/blog/categorybg01.jpg);
+}
+
+.illustration-v3.illustration-img2 {
+    background-image: url(../img/blog/categorybg02.jpg);
+}
+
+.illustration-v3.illustration-img3 {
+    background-image: url(../img/blog/categorybg03.jpg);
+}
+
+.illustration-v1.illustration-img2 {
+    background-image: url(../img/blog/08.jpg);
+}

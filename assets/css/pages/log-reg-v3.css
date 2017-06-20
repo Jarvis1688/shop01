@@ -2,37 +2,37 @@
 ------------------------------------*/
 /**General Styles**/
 /*Button Facebook Style*/
-.btn-u.btn-u-fb {
-   background: #4862a3;
+.btn-u.btn-u-wx {
+   background: #2AA146;
 }
-.btn-u.btn-u-fb:hover, 
-.btn-u.btn-u-fb:focus, 
-.btn-u.btn-u-fb:active, 
-.btn-u.btn-u-fb.active, 
-.open .dropdown-toggle.btn-u.btn-u-fb {
-   background: #5168a3;
+.btn-u.btn-u-wx:hover, 
+.btn-u.btn-u-wx:focus, 
+.btn-u.btn-u-wx:active, 
+.btn-u.btn-u-wx.active, 
+.open .dropdown-toggle.btn-u.btn-u-wx {
+   background: #7DD43C;
 }
 .btn-u.btn-u-split-fb.dropdown-toggle {
-   border-left: solid 1px #5168a3;
+   border-left: solid 1px #7DD43C;
 }
 
 /*Button Twitter Style*/
-.btn-u.btn-u-tw {
-   background: #159ceb;
+.btn-u.btn-u-wb {
+   background: #E6162D;
 }
-.btn-u.btn-u-tw:hover, 
-.btn-u.btn-u-tw:focus, 
-.btn-u.btn-u-tw:active, 
-.btn-u.btn-u-tw.active, 
-.open .dropdown-toggle.btn-u.btn-u-tw {
+.btn-u.btn-u-wb:hover, 
+.btn-u.btn-u-wb:focus, 
+.btn-u.btn-u-wb:active, 
+.btn-u.btn-u-wb.active, 
+.open .dropdown-toggle.btn-u.btn-u-wb {
    background: #39a6e5;
 }
 .btn-u.btn-u-split-tw.dropdown-toggle {
    border-left: solid 1px #39a6e5;
 }
 
-.btn-u.btn-u-fb i,
-.btn-u.btn-u-tw i {
+.btn-u.btn-u-wx i,
+.btn-u.btn-u-wb i {
   font-size: 20px;
   margin-right: 10px;
   vertical-align: middle;
