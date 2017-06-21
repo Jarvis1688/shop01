@@ -17,7 +17,11 @@
     <link rel="stylesheet" href="assets/css/shop.style.css">
     
     <!-- CSS Implementing Plugins -->
+
+    <!--图标样式库-->
     <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+
+
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/plugins/scrollbar/src/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
@@ -25,9 +29,8 @@
     <!--sky forms 表单美化插件-->
     <link rel="stylesheet" href="assets/plugins/sky-forms/css/custom-sky-forms.css">
 
-
-    <link rel="stylesheet" href="assets/plugins/master-slider/quick-start/masterslider/style/masterslider.css">
-    <link rel='stylesheet' href="assets/plugins/master-slider/quick-start/masterslider/skins/default/style.css">
+    <!--jqzoom 商品放大镜插件-->
+    <link rel="stylesheet" href="assets/plugins/jqzoom/jqzoom.css">
 
 
     <!-- 自定义CSS -->
@@ -450,9 +453,11 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6 md-margin-bottom-50">
-                    <div class="ms-showcase2-template">
-                        <!-- Master Slider -->
+                <div class="col-md-5 md-margin-bottom-50">
+
+
+                    <!--<div class="ms-showcase2-template">
+ 
                         <div class="master-slider ms-skin-default" id="masterslider">
                             <div class="ms-slide">
                                 <img class="ms-brd" src="assets/img/blog/inner01.jpg" data-src="assets/img/blog/inner01.jpg" alt="西西里男装">
@@ -467,22 +472,40 @@
                                 <img class="ms-thumb" src="assets/img/blog/inner03_thumb.jpg" alt="thumb">
                             </div>
                         </div>
-                        <!-- End Master Slider -->
+
+                    </div>-->
+
+
+                    <!--放大镜模块-->
+                    <div class="etalage_wrap">
+
+                        <ul id="etalage">
+                            <li>
+                                <img class="etalage_thumb_image" src="assets/img/blog/inner01.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                                <img class="etalage_big_image" src="assets/img/blog/inner01.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                            </li>
+                            <li>
+                                <img class="etalage_thumb_image" src="assets/img/blog/inner02.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                                <img class="etalage_big_image" src="assets/img/blog/inner02.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                            </li>
+                            <li>
+                                <img class="etalage_thumb_image" src="assets/img/blog/inner03.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                                <img class="etalage_big_image" src="assets/img/blog/inner03.jpg" data-src="assets/img/blog/inner03.jpg" alt="西西里男装"/>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="clearfix"></div>
+                    <!--END 放大镜模块-->
+
+
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="shop-product-heading">
-                        <h2>西西里男装 2017夏天潮男港风假两件短袖超带感的拼接圆领宽松T恤</h2>
-                        <!--<ul class="list-inline shop-product-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>-->
-                    </div><!--/end shop product social-->
+                        <h2>西西里男装 2017夏天潮男港风假两件短袖超带感</h2>
+                    </div><!--/end shop product heading-->
 
-                    <ul class="list-inline product-ratings margin-bottom-30">
+                    <ul class="list-inline product-ratings margin-bottom-10">
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating-selected fa fa-star"></i></li>
                         <li><i class="rating-selected fa fa-star"></i></li>
@@ -493,16 +516,16 @@
                         </li>
                     </ul><!--/end shop product ratings-->
 
-                    <p>在设计这个款式的时候 我有很多的想法 ①独特的版型裁剪 宽松又不失版型效果 ②独创的短袖设计 可搭配长袖露出在外 ③卫衣的下部缝合的时尚的假两件，以及不规则的衣尾</p><br>
+                    <p>在设计这个款式的时候 我有很多的想法 ①独特的版型裁剪 宽松又不失版型效果 ②独创的短袖设计 可搭配长袖露出在外 ③卫衣的下部缝合的时尚的假两件，以及不规则的衣尾</p>
 
-                    <ul class="list-inline shop-product-prices margin-bottom-30">
+                    <ul class="list-inline shop-product-prices margin-bottom-10">
                         <li class="shop-red">￥57.00</li>
                         <li class="line-through">￥70.00</li>
                         <li><small class="shop-bg-red time-day-left">3件免邮</small></li>
                     </ul><!--/end shop product prices-->
 
                     <h3 class="shop-product-title">尺码</h3>
-                    <ul class="list-inline product-size margin-bottom-30">
+                    <ul class="list-inline product-size margin-bottom-10">
                         <li>
                             <input type="radio" id="size-1" name="size">
                             <label for="size-1">S</label>
@@ -522,7 +545,7 @@
                     </ul><!--/end product size-->
 
                     <h3 class="shop-product-title">颜色</h3>
-                    <ul class="list-inline product-color margin-bottom-30">
+                    <ul class="list-inline product-color margin-bottom-10">
                         <li>
                             <input type="radio" id="color-1" name="color">
                             <label class="color-one" for="color-1"></label>
@@ -538,7 +561,7 @@
                     </ul><!--/end product color-->
 
                     <h3 class="shop-product-title">数量</h3>
-                    <div class="margin-bottom-40">
+                    <div class="margin-bottom-10">
                         <form name="f1" class="product-quantity sm-margin-bottom-20">
                             <button type='button' class="quantity-button button-subtract" name='subtract' value='-'>-</button>
                             <input type='text' class="quantity-field" name='qty' value="1" id='qty'/>
@@ -564,7 +587,7 @@
     </div>
     <!--=== End Shop Product ===-->
 
-    <!--=== Content Medium ===-->
+    <!--=== 中部内容产品详情 ===-->
     <div class="content-md container">
         
         
@@ -693,7 +716,7 @@
             </div>
         </div>
     </div><!--/end container-->    
-    <!--=== End Content Medium ===-->
+    <!--=== End 中部内容产品详情 ===-->
 
      <!--=== Illustration v2 ===-->
     <div class="container">
@@ -1088,13 +1111,6 @@
 <script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
 
 
-
-<!-- Master Slider -->
-<script src="assets/plugins/master-slider/quick-start/masterslider/masterslider.min.js"></script>
-<script src="assets/plugins/master-slider/quick-start/masterslider/jquery.easing.min.js"></script>
-
-
-
 <!-- 表单提交插件 -->
 <!--<script src="assets/plugins/sky-forms/js/jquery.form.min.js"></script>-->
 <!-- 表单验证插件 -->
@@ -1104,22 +1120,22 @@
 <!-- Scrollbar -->
 <script src="assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
 <script src="assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
-<!-- JS Customization -->
-<script src="assets/js/custom.js"></script>
+
+<!--jqzoom 商品放大镜插件-->
+<script src="assets/plugins/jqzoom/jqzoom.js"></script>
+
 <!-- JS Page Level -->
 <script src="assets/js/shop.app.js"></script>
 
-<script src="assets/js/plugins/master-slider.js"></script>
 
 <!--验证评论表单-->
 <script src="assets/js/forms.js"></script>
 <script>
-    jQuery(document).ready(function() {
+    $(document).ready(function() {
         App.init();
         OwlCarousel.initOwlCarousel();
 
-        //产品多图幻灯片
-        MasterSliderShowcase2.initMasterSliderShowcase2();   
+
 
         // 用户登录表单验证
         // Login.initLogin();
@@ -1131,35 +1147,25 @@
         PageContactForm.initPageContactForm();   
 
 
-        //点击商品数量加1
-        $(".button-add").on("click",function(){
-            var inputNum = $(this).prev();
-            var temp = parseInt(inputNum.val());
-            
-            temp++;
+        // 加减商品数量
+        Counter.initCounter();
 
-            inputNum.val(temp); 
-        });
 
-        //点击商品数量减1
-        $(".button-subtract").on("click",function(){
-            var inputNum = $(this).next();
-            var temp = parseInt(inputNum.val());
-            
-            temp = temp==0?0:(temp-1);
+        // 商品放大镜
+        Jqzoom.initJqzoom();
 
-            inputNum.val(temp); 
-        });
-
+        
 
     });
+
+    
 </script>
 
 
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
     <script src="assets/plugins/html5shiv.js"></script>
-    <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>    
+        
     <script src="assets/plugins/sky-forms/js/sky-forms-ie8.js"></script>
 <![endif]-->
 <!--[if lt IE 10]>

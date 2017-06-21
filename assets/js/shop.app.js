@@ -299,3 +299,140 @@ var RevolutionSlider = function () {
 
     };
 }();        
+
+
+
+
+// 添加到购物车向导插件
+var StepWizard = function () {
+
+    return {
+
+        initStepWizard: function () {
+
+
+            var form = $(".shopping-cart");
+
+                // 使用jquery validate插件验证表单是否合法
+                form.validate({
+                    errorPlacement: function errorPlacement(error, element) { element.before(error); },
+                    rules: {
+                        confirm: {
+                            equalTo: "#password"
+                        }
+                    }
+                });  // end validate
+
+                // 使用jquery steps插件渲染向导效果
+                form.children("div").steps({
+
+                    headerTag: ".header-tags",
+                    bodyTag: "section",
+                    transitionEffect: "fade",
+
+                    onStepChanging: function (event, currentIndex, newIndex) {
+                        // Allways allow previous action even if the current form is not valid!
+                        // 如果当前的表单不合法，总是允许前一个步骤
+                        if (currentIndex > newIndex)
+                        {
+                            return true;
+                        }
+                        form.validate().settings.ignore = ":disabled,:hidden";
+                        return form.valid();
+                    },  //onStepChanging 事件函数
+
+                    onFinishing: function (event, currentIndex) {
+                        form.validate().settings.ignore = ":disabled";
+                        return form.valid();
+                    },
+
+
+                    onFinished: function (event, currentIndex) {
+                        alert("!");
+                    }
+
+
+                });
+        }, 
+
+    };
+}();        
+
+
+
+
+
+// 自定义加减商品数量
+var Counter = function () {
+
+    return {
+
+        initCounter: function () {
+
+
+            //点击商品数量加1
+            $(".button-add").on("click",function(){
+                var inputNum = $(this).prev();
+                var temp = parseInt(inputNum.val());
+                
+                temp++;
+
+                inputNum.val(temp); 
+            });
+
+            //点击商品数量减1
+            $(".button-subtract").on("click",function(){
+                var inputNum = $(this).next();
+                var temp = parseInt(inputNum.val());
+                
+                temp = temp==0?0:(temp-1);
+
+                inputNum.val(temp); 
+            });
+        }, 
+
+    };
+}();    
+
+
+// inner页面放大镜模块
+var Jqzoom = function () {
+
+    return {
+
+        initJqzoom: function () {
+
+
+            $("#etalage").zoom({
+
+                thumb_image_width: 420,		// 当前展示图片的宽
+                // thumb_image_height: 430,	// 当前展示图片的高
+                source_image_width: 840,  	// 放大图片的宽
+                source_image_height: 800,	// 放大图片的高
+                zoom_area_width: 600, 		// 放大图片的展示区域的宽
+                zoom_area_height: "justify",// 放大图片的展示区域的高
+                zoom_area_distance: 10,     // 
+                zoom_easing: true,          // 是否淡入淡出
+                click_to_zoom: false,
+                zoom_element: "auto",
+                show_descriptions: true,
+                description_location: "bottom",
+                description_opacity: 0.7,
+                small_thumbs: 3,			// 小图片展示的数量
+                smallthumb_inactive_opacity: 0.4, 	// 小图片处于非激活状态时的遮罩透明度
+                smallthumb_hide_single: true,    	// 
+                smallthumb_select_on_hover: false,
+                smallthumbs_position: "bottom",		// 小图片的位置
+                show_icon: true,
+                hide_cursor: false,			// 鼠标放到图片时，是否隐藏指针
+                speed: 600,     			// 
+                autoplay: false,				// 是否自动播放
+                autoplay_interval: 3000, 	// 自动播放时每张图片的停留时间
+                keyboard: true,
+                right_to_left: false,
+
+            });
+        }, 
+
+    };
+}(); 
